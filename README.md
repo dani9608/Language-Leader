@@ -78,3 +78,64 @@ Helps individuals learn Spanish by allowing them to view flashcards and seeing i
 ## Wireframes
 <img src="https://imgur.com/sY5vqo5.jpg" width=1000><br>
 
+## Schema**
+
+**Models**
+
+*Register*
+
+| Property | Type     | Description |
+| -------- | -------- | ----------- |
+| userName | String   | Unique for user |
+| email    | String   | Unique address for user|
+| password | String   | Code for user |
+
+
+*Login*
+
+| Property | Type     | Description |
+| -------- | -------- | ----------- |
+| email    | String   | Unique address for user|
+| password | String   | Code for user |
+
+*Study Flashcards*
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| image    | File     | Flashcard showing word in Spanish |
+| image    | File     |  Flashcard showing word in English |
+
+*Quiz*
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| optionA  | File     | First option of Spanish words |
+| optionB  | File     | Second option of Spanish words |
+| optionC  | File     | Third option of Spanish words |
+
+*Settings*
+
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| pastScores | File   | List of scores from past quizes |
+| accountInfo | File  | Account information unique to user |
+
+
+
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+- Register Screen
+    - (Create/POST) Create new user
+- Login Screen
+    - (Read/GET) Query logged in user object
+- Study Flashcards Screen
+    - (Read/GET) Read flashcards
+- Take Quiz Screen
+    - (Update/PUT) Update quiz percentage
+- Settings Screen
+    - (Read/GET) Query user information
