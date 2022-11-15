@@ -139,3 +139,9 @@ Helps individuals learn Spanish by allowing them to view flashcards and seeing i
     - (Update/PUT) Update quiz percentage
 - Settings Screen
     - (Read/GET) Query user information
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/3GEzZfB.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
