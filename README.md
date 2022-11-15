@@ -34,19 +34,18 @@ Helps individuals learn Spanish by allowing them to view flashcards and seeing i
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User can register a new account
-* User can log in 
-* User can study material
-* User can take a quiz
-* User can log out
+- [X] User can register a new account
+- [X] User can log in 
+- [ ] User can study material
+- [ ] User can take a quiz
+- [ ] User can log out
 
 **Optional Nice-to-have Stories**
 
-* User can see progress
-* User can view a leaderboard
-* User can select level of difficulty
-* User can study with friends
+- [ ] User can see progress
+- [ ] User can view a leaderboard
+- [ ] User can select level of difficulty
+- [ ] User can study with friends
 
 ### 2. Screen Archetypes
 
