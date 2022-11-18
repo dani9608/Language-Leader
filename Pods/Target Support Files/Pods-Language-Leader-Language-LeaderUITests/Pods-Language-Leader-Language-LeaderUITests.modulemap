@@ -1,0 +1,6 @@
+framework module Pods_Language_Leader_Language_LeaderUITests {
+  umbrella header "Pods-Language-Leader-Language-LeaderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
