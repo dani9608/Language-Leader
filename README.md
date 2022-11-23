@@ -141,4 +141,4 @@ Language Leader app helps individuals to learn Spanish by allowing them to view 
 
 Here's a walkthrough of implemented user stories:
 
-![](https://github.com/iOSUniversityGroup/Language_Leader/blob/main/login.gif)
+![](https://github.com/iOSUniversityGroup/Language-Leader/blob/main/Logout.gif)
