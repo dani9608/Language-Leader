@@ -7,22 +7,22 @@
 
 import UIKit
 import WDFlashCard
+import Parse
 
 class StudyViewController: UIViewController, WDFlashCardDelegate {
 
     
 
     @IBOutlet weak var toggleTapToFlipButton: UIButton!
-    
     @IBOutlet weak var backView: UILabel!
     @IBOutlet weak var frontView: UILabel!
     @IBOutlet var flashCard: WDFlashCard!
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        flashCard.duration = 2.0
-        flashCard.flipAnimation = .flipFromLeft
+//        flashCard.duration = 2.0
+//        flashCard.flipAnimation = .flipFromLeft
     }
     
     override func didReceiveMemoryWarning() {
@@ -57,5 +57,18 @@ class StudyViewController: UIViewController, WDFlashCardDelegate {
     
     func flashCardFlipped(forFlashCard flashCardView: WDFlashCard) {
         print("Flash card flipped")
+    }
+    
+    
+    @IBAction func onLogoutButton(_ sender: Any){
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = main.instantiateViewController(identifier: "LoginViewController")
+        
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
+        
+        delegate.window?.rootViewController = loginViewController
+        
     }
 }
