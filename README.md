@@ -36,7 +36,7 @@ Language Leader app helps individuals to learn Spanish by allowing them to view 
 - [X] User can log in 
 - [ ] User can study material
 - [ ] User can take a quiz
-- [ ] User can log out
+- [X] User can log out and stay logged in after closing app
 
 **Optional Nice-to-have Stories**
 
