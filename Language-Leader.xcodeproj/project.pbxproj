@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		76F8BB76C35CE277E6B7940A /* Pods_Language_Leader_Language_LeaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932371F3856BDD187181F371 /* Pods_Language_Leader_Language_LeaderUITests.framework */; };
 		B9F007D71CDEB361604C21E9 /* Pods_Language_Leader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CB6E6406D36D41A9C1FA1 /* Pods_Language_Leader.framework */; };
+		CF12A958292DF146005BB1A7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12A957292DF146005BB1A7 /* QuizViewController.swift */; };
+		CF12A95A292DF1CC005BB1A7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12A959292DF1CC005BB1A7 /* StartViewController.swift */; };
+		CF12A95C292DF1EA005BB1A7 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF12A95B292DF1EA005BB1A7 /* ResultsViewController.swift */; };
 		CF151BAF29270BBE002540AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF151BAE29270BBE002540AA /* AppDelegate.swift */; };
 		CF151BB129270BBE002540AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF151BB029270BBE002540AA /* SceneDelegate.swift */; };
 		CF151BB629270BBE002540AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF151BB429270BBE002540AA /* Main.storyboard */; };
@@ -18,7 +21,6 @@
 		CF151BD029270BBF002540AA /* Language_LeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF151BCF29270BBF002540AA /* Language_LeaderUITests.swift */; };
 		CF151BD229270BBF002540AA /* Language_LeaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF151BD129270BBF002540AA /* Language_LeaderUITestsLaunchTests.swift */; };
 		CF151BE429270F69002540AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF151BE329270F69002540AA /* LoginViewController.swift */; };
-		CF5C3A0B2927141500EE21C3 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C3A0A2927141500EE21C3 /* StudyViewController.swift */; };
 		E1BC679B2999E486B613258E /* Pods_Language_LeaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDD33FCDC7EC635C322B5E3 /* Pods_Language_LeaderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,9 @@
 		8C32C727BAC58640778740B4 /* Pods-Language-Leader-Language-LeaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Language-Leader-Language-LeaderUITests.release.xcconfig"; path = "Target Support Files/Pods-Language-Leader-Language-LeaderUITests/Pods-Language-Leader-Language-LeaderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		932371F3856BDD187181F371 /* Pods_Language_Leader_Language_LeaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Language_Leader_Language_LeaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF719DF770AC1607EA13C4F7 /* Pods-Language-LeaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Language-LeaderTests.debug.xcconfig"; path = "Target Support Files/Pods-Language-LeaderTests/Pods-Language-LeaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF12A957292DF146005BB1A7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		CF12A959292DF1CC005BB1A7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CF12A95B292DF1EA005BB1A7 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		CF151BAB29270BBE002540AA /* Language-Leader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Language-Leader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF151BAE29270BBE002540AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF151BB029270BBE002540AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +66,6 @@
 		CF151BCF29270BBF002540AA /* Language_LeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language_LeaderUITests.swift; sourceTree = "<group>"; };
 		CF151BD129270BBF002540AA /* Language_LeaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language_LeaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CF151BE329270F69002540AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CF5C3A0A2927141500EE21C3 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		F79F81D2DB98A431DD654773 /* Pods-Language-LeaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Language-LeaderTests.release.xcconfig"; path = "Target Support Files/Pods-Language-LeaderTests/Pods-Language-LeaderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +142,9 @@
 				CF151BB929270BBF002540AA /* LaunchScreen.storyboard */,
 				CF151BBC29270BBF002540AA /* Info.plist */,
 				CF151BE329270F69002540AA /* LoginViewController.swift */,
-				CF5C3A0A2927141500EE21C3 /* StudyViewController.swift */,
+				CF12A959292DF1CC005BB1A7 /* StartViewController.swift */,
+				CF12A957292DF146005BB1A7 /* QuizViewController.swift */,
+				CF12A95B292DF1EA005BB1A7 /* ResultsViewController.swift */,
 			);
 			path = "Language-Leader";
 			sourceTree = "<group>";
@@ -413,10 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5C3A0B2927141500EE21C3 /* StudyViewController.swift in Sources */,
+				CF12A95A292DF1CC005BB1A7 /* StartViewController.swift in Sources */,
+				CF12A958292DF146005BB1A7 /* QuizViewController.swift in Sources */,
 				CF151BE429270F69002540AA /* LoginViewController.swift in Sources */,
 				CF151BAF29270BBE002540AA /* AppDelegate.swift in Sources */,
 				CF151BB129270BBE002540AA /* SceneDelegate.swift in Sources */,
+				CF12A95C292DF1EA005BB1A7 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

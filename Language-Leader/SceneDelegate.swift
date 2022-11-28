@@ -21,8 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         if PFUser.current() != nil {
             let main = UIStoryboard(name: "Main", bundle: nil)
-            let studyNavigationController = main.instantiateViewController(withIdentifier: "StudyNavigationController")
-            window?.rootViewController = studyNavigationController
+            let StartViewController = main.instantiateViewController(withIdentifier: "StartViewController")
+            window?.rootViewController = StartViewController
         }
         
     }

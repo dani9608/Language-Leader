@@ -7,7 +7,6 @@ target 'Language-Leader' do
 
 pod 'AlamofireImage'
 pod 'Parse'
-pod 'WDFlashCard', '~> 1.0'
 
   # Pods for Language-Leader
 

@@ -35,12 +35,12 @@ Language Leader app helps individuals to learn Spanish by allowing them to view 
 - [X] User can register a new account
 - [X] User can log in 
 - [ ] User can study material
-- [ ] User can take a quiz
+- [X] User can take a quiz
 - [X] User can log out and stay logged in after closing app
 
 **Optional Nice-to-have Stories**
 
-- [ ] User can see progress
+- [X] User can see final score
 - [ ] User can view a leaderboard
 - [ ] User can select level of difficulty
 - [ ] User can study with friends
@@ -55,7 +55,6 @@ Language Leader app helps individuals to learn Spanish by allowing them to view 
     * User can study material
 * Quiz
     * User can take a quiz
-
 * Logout
     * User can log out
 
@@ -142,3 +141,5 @@ Language Leader app helps individuals to learn Spanish by allowing them to view 
 Here's a walkthrough of implemented user stories:
 
 ![](https://github.com/iOSUniversityGroup/Language-Leader/blob/main/Logout.gif)
+
+![](https://github.com/iOSUniversityGroup/Language-Leader/blob/main/TakeQuiz.gif)
