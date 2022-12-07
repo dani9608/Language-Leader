@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Language-Leader">
+   </FileRef>
+   <FileRef
+      location = "group:Language-LeaderTests">
+   </FileRef>
+   <FileRef
+      location = "group:Language-LeaderUITests">
+   </FileRef>
+   <FileRef
+      location = "group:Logout.gif">
+   </FileRef>
+   <FileRef
+      location = "group:Podfile">
+   </FileRef>
+   <FileRef
+      location = "group:Podfile.lock">
+   </FileRef>
+   <FileRef
+      location = "group:Pods">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:TakeQuiz.gif">
+   </FileRef>
+   <FileRef
       location = "group:Language-Leader.xcodeproj">
    </FileRef>
    <FileRef
